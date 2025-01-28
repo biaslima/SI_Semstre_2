@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    color: #427CB1;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../archives/ceu2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    min-height: 70vh;
+}
+ #logo{
+    display: flex;
+    flex-direction: row;
+    color: #427CB1;
+    align-items: center;
+ }
+
+ #logo img{
+    width: 110px;
+ }
+#city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+ #cityName{
+    background-color: #FFC61A;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 0.3rem;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+ }
+ #search{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #427CB1;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ i{
+    font-size: 40px;
+    color: #427CB1;
+ }
+ #search i{
+    font-size: 20px;
+    color: white;
+    padding-top: 0;
+    margin: 0;
+ }
+
+ #cityWeather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+ #title{
+    font-size: 0.75rem;
+    margin-top: 0.3rem;
+    text-align: center;
+ }
+
+ #weatherInfo{
+    display: flex;
+    background-color: #095795;
+    border-radius: 30px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #tempValue{
+    color: white;
+    font-size: 1rem;
+ }
+ #tempDescription{
+    color: white;
+    font-size: .3rem;
+ }
+ #temperature{
+    margin: .2rem;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ #otherInfo{
+    display: flex;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+ }
+ #otherInfo i{
+    font-size: 25px;
+ }
+ #humidity{
+    font-size: 25px;
+    margin: 20px;
+    margin-right: 60px;
+ }
+ #wind{
+    font-size: 25px;
+ }
+ #tempIcon{
+    min-width: 150px;
+ }
+ #cityWeather {
+    display: none; /* Inicialmente oculta */
+}
+
